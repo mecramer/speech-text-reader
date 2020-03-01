@@ -63,6 +63,8 @@ data.forEach(createBox);
 // what we want to do with this function is create the boxes on the page
 // first we create a containing div
 // then we use destructuring to get the image and text properties from the item being passed
+// then we create the innerHTML for the box by adding  th markup and two properties
+// then we take this newly created html and add it to the main div on the page (appendChild)
 function createBox(item) {
   // console.log(item);
   const box = document.createElement('div');
